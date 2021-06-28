@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+    color: slateblue;
+    padding-top: 50px;
+    font-size: 77pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+   
+}
+
+h2 {
+    text-align: center;
+    color: green;
+    padding-top: 50px;
+    font-size: 55pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+   
+}
+
+body {background-image: url(pretty.webp);
+background-size: cover;}
+
+p.outset {border-style: outset; 
+    border-width: 19px;  
+    border-color:slateblue;
+    border-right-style: dotted;
+    border-left-style: dashed;
+    border-radius: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+    }
+
+button { background-image: linear-gradient(to bottom right,slateblue, rgb(255, 157, 157));
+    border-radius: 25px;
+position: center;}
+
+button:hover {
+        background-image:linear-gradient(to bottom right,slateblue, rgb(192, 120, 120));
+        background-color:linear-gradient(to bottom right,slateblue, rgb(255, 157, 157));
+        }
+
+style {
+            height: 200px;
+            width: 50%;
+            background-color: powderblue;
+          }
+
+ p {outline-style: double;
+    text-align: center;
+    font-size: 20pt;}
+    
+      
+ ul {
+        background: #3399ff;
+        padding: 20px;
+        width: 20%;
+        align-self: center;
+        opacity: 0.5;
+      }
+
+Li {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: medium;text-align: center; text-shadow: 2px 2px 5px pink; }
+
+table {
+    border: 1px solid slateblue;
+    width: 60%;}
